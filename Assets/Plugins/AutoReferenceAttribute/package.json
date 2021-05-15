@@ -1,0 +1,22 @@
+{
+  "name": "okinawa.ishix.autoreference",
+  "displayName": "Auto Reference Attribute",
+  "version": "1.0.0",
+  "unity": "2018.4",
+  "description": "[Unity] Resolve the SerializeField reference.",
+  "author": {
+    "name": "IShix",
+    "url": "https://github.com/IShix-g"
+  },
+  "keywords": ["Resolve", "Reference", "SerializeField"],
+  "license": "MIT",
+  "dependencies": {},
+  "samples": [
+    {
+      "displayName": "Sample",
+      "description": "Auto Reference Example",
+      "path": "Samples/AutoReferenceExample"
+    }
+  ]
+}
+
