@@ -1,19 +1,32 @@
 # Auto Reference Attribute
-Easily attach the script you created to `SerializeField`.  
+
+Automatically resolves `SerializeField` references.
 It collects the references on the Hierarchy and displays them in a drop-down.
 
+## Field
+
+```c#
+[SerializeField, AutoReference] AutoReferenceExampleObject obj;
+```
+
 ![Auto Reference](ReadMeImages/image.png)
+
+## Array and List
+```c#
+[SerializeField, AutoReference] AutoReferenceExampleObject[] obj;
+[SerializeField, AutoReference] List<AutoReferenceExampleObject> obj;
+```
+![childOnly](ReadMeImages/image4.png)
 
 ## Just give it an `AutoReference` attribute.
 
 ```c#
-public class Example : MonoBehaviour
-{
-    [SerializeField, AutoReference] MyScript script;
+[SerializeField, AutoReference] MyScript script;
 ```
 
 # Why use Auto Reference Attribute?
 - It has better performance than `GetComponent`.
+- You can check it in Hierarchy, so it is intuitive.
 - It's easy to add `AutoReference`.
 - If a script goes missing, you can reconfigure it by simply selecting it.
 
