@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Plugins/AutoReferenceAttribute/Samples/AutoReferenceExample/AutoReferenceExample.unity
-    guid: 02dd3be2ba8f44bfeb52368454b7473f
+    path: Assets/Tests/TestScene.unity
+    guid: 3fc6934c1c21143cdacf9d6dceb6ae2f
   m_configObjects: {}

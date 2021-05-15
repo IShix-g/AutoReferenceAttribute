@@ -149,7 +149,7 @@ namespace AutoReference
                         
                         objs = parent.GetComponentsInChildren(type).ToList();
 
-                        if (!parentError)
+                        if (!parentError && objs.Count > 0)
                         {
                             GUI.contentColor = Color.red;
                             nonSelectedTitle = $"[Error] Parent ({parentStg}) is null";
@@ -178,6 +178,10 @@ namespace AutoReference
                             fieldInfo.SetValue(targetObject, newValue);
                             isChangeValue = true;
                         }
+                    }
+                    else
+                    {
+                        EditorGUI.PropertyField(position, property, label);
                     }
 
                     GUI.contentColor = defaultColor;
