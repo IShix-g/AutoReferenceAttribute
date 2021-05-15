@@ -52,7 +52,7 @@ Unity 2018.4 higher
 
 ## Package Manager
 
-URL : `https://github.com/IShix-g/SerializeFieldAutoReferenceAttribute?path=Assets/Plugins/AutoReferenceAttribute`
+URL : `https://github.com/IShix-g/AutoReferenceAttribute?path=Assets/Plugins/AutoReferenceAttribute`
 
 ### [Unity 2019.3 higher] Install via git URL
 Add the Url to Package Manager
@@ -65,7 +65,7 @@ Add the Url to `Packages/manifest.json`.
 
 ## Unitypackage
 
-[SerializeFieldAutoReferenceAttribute/releases](https://github.com/IShix-g/SerializeFieldAutoReferenceAttribute/releases/)
+[SerializeFieldAutoReferenceAttribute/releases](https://github.com/IShix-g/AutoReferenceAttribute/releases/)
 
 ![Auto Reference](ReadMeImages/image3.png)
 
