@@ -4,15 +4,14 @@
     "displayName": "Auto Reference Attribute",
     "description": "[Unity] Resolve the SerializeField reference.",
     "unity": "2018.4",
-    "author": {
-        "name": "IShix",
-        "url": "https://github.com/IShix-g"
-    },
+    "dependencies": {},
     "keywords": [
         "Resolve",
         "Reference",
         "SerializeField"
     ],
-    "dependencies": {},
-    "license": "MIT"
+    "author": {
+        "name": "IShix",
+        "url": "https://github.com/IShix-g"
+    }
 }
