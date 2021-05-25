@@ -49,7 +49,7 @@ namespace PackageManagement
                                 continue;
                             }
                             
-                            sb.Append($"    \"{dependency.PackageName}\": \"{dependency.Version.Trim()}\",\n");
+                            sb.Append($"\"{dependency.PackageName}\": \"{dependency.Version.Trim()}\",\n");
                         }
                         
                         var index = sb.ToString().LastIndexOf(',');
@@ -83,7 +83,7 @@ namespace PackageManagement
                                 continue;
                             }
                             
-                            sb.Append($"    \"{keyword.Trim()}\",\n");
+                            sb.Append($"\"{keyword.Trim()}\",\n");
                         }
                         var index = sb.ToString().LastIndexOf(',');
                         if (index >= 0)

@@ -1,18 +1,18 @@
 {
-  "name": "okinawa.ishix.autoreference",
-  "version": "1.0.3",
-  "displayName": "Auto Reference Attribute",
-  "description": "[Unity] Resolve the SerializeField reference.",
-  "unity": "2018.4",
-  "dependencies": {},
-  "keywords": [
-    "Resolve",
-    "Reference",
-    "SerializeField"
-  ],
-  "author": {
+"name": "okinawa.ishix.autoreference",
+"version": "1.0.3",
+"displayName": "Auto Reference Attribute",
+"description": "[Unity] Resolve the SerializeField reference.",
+"unity": "2018.4",
+"author": {
     "name": "IShix",
     "url": "https://github.com/IShix-g"
-  },
-  "license":"MIT"
+},
+"keywords": [
+"Resolve",
+"Reference",
+"SerializeField"
+],
+"dependencies": {},
+"license": "MIT"
 }

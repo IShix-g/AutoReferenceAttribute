@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Package
   m_EditorClassIdentifier: 
   name: okinawa.ishix.autoreference
-  version: 1.0.1
+  version: 1.0.3
   displayName: Auto Reference Attribute
   description: '[Unity] Resolve the SerializeField reference.'
   unity: 2018.4
