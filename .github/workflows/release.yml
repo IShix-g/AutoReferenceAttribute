@@ -9,7 +9,7 @@ on:
 
 env:
   FILE_NAME: "AutoReferenceAttribute"
-  BUILD_METHOD: "AutoReferenceAttribute.ExportGithub"
+  BUILD_METHOD: "AutoReferenceAttributeExport.ExportGithub"
 
 jobs:
   release:
