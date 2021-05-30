@@ -1,6 +1,6 @@
 {
 "name": "okinawa.ishix.autoreference",
-"version": "1.0.3",
+"version": "1.0.4",
 "displayName": "Auto Reference Attribute",
 "description": "[Unity] Resolve the SerializeField reference.",
 "unity": "2018.4",
